@@ -1,13 +1,13 @@
 <template>
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand text-left" href="#">
-                <img src="../assets/images/logo-bs.png" alt="">
-                <span>Bukusaku</span>
-            </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="../assets/images/logo-bs.png" alt="">
+            <span>Bukusaku</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBukusaku" aria-controls="navbarBukusaku" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarBukusaku">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Features</a>
@@ -42,5 +42,8 @@
     font-weight: bold;
 }
 </style>
-<script>
-</script>
+<!--
+<script src="../assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+-->

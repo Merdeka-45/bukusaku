@@ -1,20 +1,27 @@
 {
-  "name": "landingpage",
+  "name": "Bukusaku",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "wage.muhammad13@gmail.com <wage.muhammad13@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "node server.js",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run e2e",
     "lint": "eslint --ext .js,.vue src test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "git subtree push --prefix dist heroku master"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "npm": "^5.8.0",
+    "popper.js": "^1.14.3",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-headful": "^2.0.1",
+    "vue-router": "^3.0.1",
+    "vueditor": "^0.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
